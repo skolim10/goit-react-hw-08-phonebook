@@ -7,7 +7,7 @@ export const AppBar = () => {
   const { isLoggedIn } = useAuth();
 
   return (
-    <Header
+    <div
       style={{
         position: 'fixed',
         width: '95%',
@@ -27,6 +27,6 @@ export const AppBar = () => {
     >
       <Navigation />
       {isLoggedIn ? <UserMenu /> : <AuthNav />}
-    </Header>
+    </div>
   );
 };

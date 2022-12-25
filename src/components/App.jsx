@@ -1,13 +1,5 @@
-import React, { lazy, useEffect } from 'react';
-import { ContactForm } from './ContactForm/ContactForm';
-import { Filter } from './Filter/Filter';
-import { ContactList } from './ContactList/ContactList';
-import { Loader } from './Loader/Loader';
-
-import { useSelector, useDispatch } from 'react-redux';
-import { getIsLoading, getError } from 'redux/selectors';
-import { fetchContacts } from 'redux/operations';
-
+import { useDispatch } from 'react-redux';
+import { lazy, useEffect } from 'react';
 import CircularProgress from '@mui/material/CircularProgress';
 import { Route, Routes } from 'react-router-dom';
 import { Layout } from './Layout';
