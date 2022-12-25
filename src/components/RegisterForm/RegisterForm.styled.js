@@ -4,10 +4,10 @@ export const Form = styled.form`
   width: 320px;
   margin: 100px auto;
   padding: 24px 20px;
-  background-color: rgba(203, 82, 251, 0.3);
-  box-shadow: 5px 7px 9px rgba(86, 33, 110, 0.3);
+  background-color: rgba(61, 84, 68, 0.3);
+  box-shadow: 5px 7px 9px rgba(61, 84, 68, 0.8);
   border-radius: 16px;
-  border: 2px solid #cb52fb;
+  border: 2px solid #3d5444;
 `;
 
 export const Label = styled.label`
@@ -22,7 +22,7 @@ export const Input = styled.input`
   padding: 8px;
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 0.8);
-  border: 2px solid #cb52fb;
+  border: 2px solid #3d5444;
   &:focus {
     outline: none;
     border-color: #80a3f9;
@@ -40,10 +40,10 @@ export const Button = styled.button`
   border-radius: 4px;
   cursor: pointer;
   background-color: rgba(58, 255, 233, 0.5);
-  border: 2px solid #cb52fb;
+  border: 2px solid #3d5444;
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.1);
   &:hover {
     color: #3affe9;
-    background-color: #cb52fb;
+    background-color: #3d5444;
   }
 `;
