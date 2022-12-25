@@ -11,7 +11,7 @@ export const StyledLink = styled(NavLink)`
   font-size: 18px;
   color: #2a363b;
   &.active {
-    color: #cb52fb;
+    color: #62ab02;
     text-decoration: underline;
   }
 `;

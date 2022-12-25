@@ -21,8 +21,8 @@ export const AppBar = () => {
         alignItems: 'center',
         padding: '0 8px',
         borderRadius: '4px',
-        boxShadow: '5px 7px 9px rgba(86, 33, 110, 0.3)',
-        background: 'grey',
+        boxShadow: '5px 7px 9px rgba(61, 84, 68, 0.3)',
+        background: 'rgba(61, 84, 68, 0.1)',
       }}
     >
       <Navigation />

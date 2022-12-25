@@ -23,9 +23,9 @@ export const Button = styled.button`
   border-radius: 4px;
   cursor: pointer;
   background-color: rgba(58, 255, 233, 0.2);
-  border: 2px solid #cb52fb;
+  border: 2px solid #3d5444;
   &:hover {
     color: #3affe9;
-    background-color: #cb52fb;
+    background-color: #3d5444;
   }
 `;

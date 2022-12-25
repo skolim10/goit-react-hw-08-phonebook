@@ -43,7 +43,7 @@ export const Button = styled.button`
   border: 2px solid #3d5444;
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.1);
   &:hover {
-    color: #3affe9;
+    color: #3d5444;
     background-color: #3d5444;
   }
 `;
